@@ -54,9 +54,9 @@ def reconstruct_image(quantized_pixels):
     return Image.fromarray(image)
 
 # Load an image
-image = Image.open('bird2.jpg')
+image = Image.open('bird before edit.jpg')
 
-# Resize the image to 240x220
+# Resize the image to 340x120
 image = image.resize((340, 120))
 
 # Quantize the image to 3-bit color
